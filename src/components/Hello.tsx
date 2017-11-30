@@ -6,4 +6,4 @@ export interface HelloProps {
 }
 
 export const Hello = (props: HelloProps) => 
-  <h1>Hello from {props.compiler} and {props.framework}</h1>;
+  <h1>Hello from {props.compiler} and {props.framework}, with hot module reloading!</h1>;
